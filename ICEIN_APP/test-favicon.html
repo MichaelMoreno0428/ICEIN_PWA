@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Favicon ICEIN</title>
+    <link rel="icon" href="public/images/logo_icein.png" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .test-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo-test {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .logo-test img {
+            max-width: 200px;
+            height: auto;
+        }
+        .instructions {
+            background: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Test del Favicon ICEIN</h1>
+        
+        <div class="instructions">
+            <h3>Instrucciones para limpiar la caché:</h3>
+            <ol>
+                <li><strong>Chrome/Edge:</strong> Ctrl+Shift+Delete → Seleccionar "Imágenes y archivos en caché" → Borrar datos</li>
+                <li><strong>Safari:</strong> Cmd+Option+E (vaciar caché)</li>
+                <li><strong>Firefox:</strong> Ctrl+Shift+Delete → Seleccionar "Caché" → Borrar ahora</li>
+                <li><strong>Recargar:</strong> Ctrl+F5 (o Cmd+Shift+R en Mac)</li>
+            </ol>
+        </div>
+
+        <div class="logo-test">
+            <h3>Logo ICEIN (debería aparecer en la pestaña del navegador):</h3>
+            <img src="public/images/logo_icein.png" alt="Logo ICEIN" />
+        </div>
+
+        <p><strong>Estado actual:</strong> El favicon debería mostrar el logo de ICEIN en la pestaña del navegador.</p>
+        
+        <p><strong>Si aún ves el logo de React:</strong> Es porque el navegador está usando una versión en caché. Sigue las instrucciones arriba para limpiar la caché.</p>
+    </div>
+</body>
+</html>
